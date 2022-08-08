@@ -2,13 +2,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 32px;
+    margin: 0;
 }
 
 .header {
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -20,15 +28,47 @@ ul {
 .box1 {
     display: flex;
     justify-content: center;
-    padding: 16px;
+    padding: 32px;
+    gap: 32px;
+}
+
+.bigguy {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.littleguy {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.bouncer {
+    width: 500px;
 }
 
 .box2 {
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 16px;
     gap: 16px;
+}
+
+.cell {
+    width: 200px;
+}
+
+.mate {
+    display: flex;
+    justify-content: center;
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .items {
@@ -37,35 +77,48 @@ ul {
 }
 
 .box3 {
-    background-color: lightgray;
-    padding: 16px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 72px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .quote {
     font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .wiseman {
-    font-weight: 700;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .box4 {
+    font-size: 18px;
     padding: 32px;
     margin: 32px;
     color: white;
-    background-color: blue;
+    background-color: #3882f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.bigcall {
+    font-weight: bolder;
+}
+
 .footer {
     color: white;
-    background-color: darkblue;
     padding: 16px;
     display: flex;
     justify-content: center;
+}
+
+.header , .footer , .box1 {
+    background-color: #1F2937;
 }
